@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    display: flex;
+    background: url(../landing/images/black\ space.jpeg) no-repeat center center
+      fixed;
+    background-size: cover;
+    flex-direction: column;
+    align-content: space-evenly;}
+    #Name {
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+      }

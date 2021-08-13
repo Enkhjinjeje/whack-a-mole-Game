@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#leFt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#riGth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pageAll {
+  background-color:rgb(38, 40, 189);
+}
+#gameAll {
+  height: 700px;
+  width: 800px;
+  background-color: rgb(38, 40, 189);
+  margin: auto;
+}
+#pictureL {
+  display: flex;
+  justify-content: flex-start;
+}
+.game1 {
+  border: #0092cc solid 2px;
+  height: 250px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+}
+#gameTop {
+  height: 300px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#gameBot {
+  height: 300px;
+  width: 800px;
+  background: lightblue;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.game2 {
+  border: #0092cc solid 2px;
+  height: 250px;
+  width: 200px;
+  margin: auto;
+}
+#name {
+  color: white;
+  font-size: 30px;
+}
+#copyRigth {
+  color: white;
+  text-align: center;
+  
+}
+#message {
+    color: rgb(38, 40, 189);
+}
