@@ -3,10 +3,25 @@
   <head>
     <title>whack</title>
     <link rel="stylesheet" href="whack.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="allPage">
-      <h2 id="naMe" onclick="startGame()">ASTEROID DEFENCE</h2>
+      <div id="back">
+        <a href="../menu/menu.html">
+          <button>
+            <i class="fa fa-arrow-circle-o-left" style="font-size: 35px"></i>
+          </button>
+        </a>
+      </div>
+      <div id="top">
+        <h2 id="scores">SCORE <span id="score"></span></h2>
+        <h2 id="naMe">ASTEROID DEFENCE</h2>
+        <h2 id="times">TIME <span id="time"></span></h2>
+      </div>
       <div id="container">
         <div id="allSquare">
           <div class="square"></div>

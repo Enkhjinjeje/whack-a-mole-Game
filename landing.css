@@ -13,12 +13,12 @@
   justify-content: center;
 }
 #pageAll {
-  background-color:rgb(38, 40, 189);
+  background: url(./landing/images/arcades.jpeg) ;
 }
 #gameAll {
   height: 700px;
   width: 800px;
-  background-color: rgb(38, 40, 189);
+  background-color:transparent;
   margin: auto;
 }
 #pictureL {
@@ -26,36 +26,48 @@
   justify-content: flex-start;
 }
 .game1 {
-  border: #0092cc solid 2px;
+  border: white solid 2px;
   height: 250px;
   width: 200px;
   margin: auto;
   display: flex;
   flex-direction: inherit;
   justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px purple;
 }
 #gameTop {
   height: 300px;
   width: 800px;
-  background-color: lightblue;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+#gameTop :hover {
+  height: 260px;
+  width: 210px;
+}
 #gameBot {
   height: 300px;
   width: 800px;
-  background: lightblue;
+  background: transparent;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+#gameBot :hover {
+  height: 260px;
+  width: 210px;
+}
 .game2 {
-  border: #0092cc solid 2px;
+  border: white solid 2px;
   height: 250px;
   width: 200px;
   margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px purple;
 }
 #name {
   color: white;
