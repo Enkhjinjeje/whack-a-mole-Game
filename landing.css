@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 #leFt {
   display: flex;
   flex-direction: row;
@@ -13,7 +14,8 @@
   justify-content: center;
 }
 #pageAll {
-  background: url(./landing/images/arcades.jpeg) ;
+  background: url(./landing/images/arcades.jpeg);
+  background-size: cover;
 }
 #gameAll {
   height: 700px;

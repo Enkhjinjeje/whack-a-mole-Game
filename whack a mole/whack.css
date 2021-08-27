@@ -20,9 +20,9 @@ body {
   margin-top: 20px;
 }
 #container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 /* this is makeing 9 divs and makeing them in a line and compact */
 #allSquare {
@@ -50,18 +50,26 @@ body {
   width: 100%;
   height: 100%;
 }
-#scores , #times {
-  color :white;
+.square.explosion {
+  background: url("../landing/images/pngaaa.com-893477.png") center no-repeat;
+  top: 100%;
+  border-radius: 50%;
+  width:10em; height:10em;
+}
+#scores,#times {
+  color: white;
   margin-bottom: 30px;
   margin-top: 20px;
 }
-#top{
+#top {
   display: flex;
-  justify-content: space-evenly ;
+  justify-content: space-between;
   align-items: center;
+  padding-right: 250px;
+  padding-top: 15px;
 }
-#back button {
-  background-color: black;
+#top button {
+  background-color: transparent;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -70,4 +78,36 @@ body {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  left: 0;
+}
+.winning-message {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 5rem;
+  flex-direction: column;
+}
+.winning-message button {
+  font-size: 3rem;
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+}
+.winning-message button:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+.winning-message.show {
+  display: flex;
 }

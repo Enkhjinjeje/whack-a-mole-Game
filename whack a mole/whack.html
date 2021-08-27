@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>whack</title>
+    <title>ASTEROID DEFENCE</title>
     <link rel="stylesheet" href="whack.css" />
     <link
       rel="stylesheet"
@@ -10,19 +10,17 @@
   </head>
   <body>
     <div class="allPage">
-      <div id="back">
+      <div id="top">
         <a href="../menu/menu.html">
           <button>
             <i class="fa fa-arrow-circle-o-left" style="font-size: 35px"></i>
           </button>
         </a>
-      </div>
-      <div id="top">
         <h2 id="scores">SCORE <span id="score"></span></h2>
         <h2 id="naMe">ASTEROID DEFENCE</h2>
         <h2 id="times">TIME <span id="time"></span></h2>
       </div>
-      <div id="container">
+      <dizv id="container">
         <div id="allSquare">
           <div class="square"></div>
           <div class="square"></div>
@@ -45,6 +43,11 @@
           <div class="square"></div>
           <div class="square"></div>
         </div>
+      </div>
+      <div id="message" class="winning-message">
+        <h2>SCORE <span id="finishScore"></span></h2>
+        <button id="restartButton">Restart</button>
+        <p id="demo"></p>
       </div>
     </div>
     <script src="whack.js"></script>
