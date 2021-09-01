@@ -18,6 +18,7 @@ body {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 20px;
+  cursor: default;
 }
 #container {
   display: flex;
@@ -45,21 +46,25 @@ body {
 }
 /* this is the image of the asteroid and  */
 .square.astro {
-  background: url("../landing/images/asteroid.jpeg") bottom center no-repeat;
+  background: url("../landing/images/asteroid.jpeg") center;
   top: 100%;
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
 }
 .square.explosion {
   background: url("../landing/images/pngaaa.com-893477.png") center no-repeat;
   top: 100%;
   border-radius: 50%;
-  width:10em; height:10em;
+  width: 10em;
+  height: 10em;
 }
-#scores,#times {
+#scores,
+#times {
   color: white;
   margin-bottom: 30px;
   margin-top: 20px;
+  cursor: default;
 }
 #top {
   display: flex;
@@ -95,6 +100,7 @@ body {
   color: white;
   font-size: 5rem;
   flex-direction: column;
+  cursor: default;
 }
 .winning-message button {
   font-size: 3rem;

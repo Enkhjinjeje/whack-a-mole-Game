@@ -13,11 +13,9 @@ let timeUp = false;
 // creating score with let and value is 0
 let score = 0;
 // creating timeLeft and value 30
-let timeLeft = 10;
+let timeLeft = 30;
 let restartButton = document.querySelector("#restartButton");
-
-// creating function called downloadTimer and seting-setInterval with arrow function and counting 1 sec wich is 1000
-//
+//creating a function called downloadTimer which is looping interval every 1 sec 
 function downloadTimer() {
   const interval = setInterval(() => {
     // if timeleft is same or lower than 0 its clearing-interval
@@ -31,7 +29,7 @@ function downloadTimer() {
     timeLeft -= 1;
   }, 1000);
 }
-// creating function named randomNumber
+// creating function called randomNumber 
 function randomNumber() {
   // inside randomNumber its getting random number with math.floor and math.random wich is giveing random number betwenn 0 to 17
   const number = Math.floor(Math.random() * 17);
@@ -65,13 +63,13 @@ restartButton.addEventListener("click", () => {
 // creating a function named startGame
 function startgame() {
   // inside startGame timeUp = false and scoreboard is = 0 score=0 and running peep seting setTimeout wich is runing timeUP with 30000
-  timeLeft = 10;
+  timeLeft = 30;
   timeUp = false;
   scoreBoard.textContent = 0;
   score = 0;
   downloadTimer();
   peep();
-  setTimeout(() => (timeUp = true), 10000);
+  setTimeout(() => (timeUp = true), 30000);
 }
 // creating function named peep with randomTime first is min and second is max and getting randomholes and adding astro
 function peep() {

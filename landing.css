@@ -74,10 +74,12 @@
 #name {
   color: white;
   font-size: 30px;
+  cursor: default;
 }
 #copyRigth {
   color: white;
   text-align: center;
+  cursor: default;
   
 }
 #message {
